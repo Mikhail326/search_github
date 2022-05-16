@@ -1,0 +1,53 @@
+.infoUser {
+  width: 30%;
+}
+
+@media(max-width: 960px) {
+  .infoUser {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 20px;
+  }
+}
+
+.infoUserAvatar {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.infoUser h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.wrapperFollow {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media(max-width: 960px) {
+  .wrapperFollow {
+   justify-content: center;
+  }
+}
+
+.followers,
+.following {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+.loginUser {
+  color: #0064EB;
+  display: block;
+  margin-bottom: 25px;
+}

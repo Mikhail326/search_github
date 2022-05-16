@@ -1,0 +1,27 @@
+.container {
+  height: calc(96vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.content img {
+  width: 66px;
+}
+
+.content h3 {
+  color: #808080;
+  width: 200px;
+  text-align: center;
+}
